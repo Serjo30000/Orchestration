@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication21</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication21.Controllers.RabbitMqController.SendClient(WebApplication21.Models.Client)">
+            <summary>
+            Создание клиента
+            </summary>
+            <response code="200">Успешное выполнение</response>
+            <response code="400">Плохой запрос</response>
+        </member>
+        <member name="M:WebApplication21.Controllers.RabbitMqController.SendTicket(WebApplication21.Models.Ticket)">
+            <summary>
+            Создание билета
+            </summary>
+            <response code="200">Успешное выполнение</response>
+            <response code="400">Плохой запрос</response>
+        </member>
+        <member name="M:WebApplication21.Controllers.RabbitMqController.SendCard(WebApplication21.Models.Card)">
+            <summary>
+            Создание карты
+            </summary>
+            <response code="200">Успешное выполнение</response>
+            <response code="400">Плохой запрос</response>
+        </member>
+        <member name="M:WebApplication21.Controllers.RabbitMqController.ApproveMessage">
+            <summary>
+            Подтверждение покупки
+            </summary>
+            <response code="200">Успешное выполнение</response>
+        </member>
+    </members>
+</doc>
